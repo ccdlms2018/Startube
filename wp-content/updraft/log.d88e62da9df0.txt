@@ -1,0 +1,94 @@
+0000.104 (0) Opened log file at time: Sat, 03 Nov 2018 14:09:53 +0000 on http://853.8c8.myftpupload.com
+0000.106 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 56.5M | 57.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.108 (0) Free space on disk containing Updraft's temporary directory: 263648424.5 MB
+0000.193 (0) Deleting old temporary file: backup_2018-10-27-0942_Startube_749aeea02d6b-plugins.zip.tmp
+0000.373 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.374 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.379 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1540651371, seconds_ago=602822)
+0000.381 (0) Semaphore (fd, wp_wk38xk386h_options) was stuck, set lock time to 2018-11-03 14:09:53
+0000.382 (0) Semaphore (fd, wp_wk38xk386h_options) reset to 1
+0000.384 (0) Set semaphore last lock (fd) time to 2018-11-03 14:09:53
+0000.385 (0) Semaphore lock (fd) complete
+0000.389 (0) Backup run: resumption=0, nonce=d88e62da9df0, begun at=1541254193 (0s ago), job type=backup
+0000.391 (0) Scheduling a resumption (1) after 300 seconds (1541254493) in case this run gets aborted
+0000.401 (0) Checking if we have a zip executable available
+0000.402 (0) Testing: /usr/bin/zip
+0000.420 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.427 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.428 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.429 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.430 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.446 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.448 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.474 (0) Working binary zip found: /usr/bin/zip
+0000.477 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.478 (0) Creation of backups of directories: beginning
+0000.488 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0019.557 (0) Total entities for the zip file: 526 directories, 3925 files (0 skipped as non-modified), 75.3 MB
+0019.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0019.626 (0) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 0.10 MB
+0019.743 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 100 files added (on-disk size: 121.7 KB)
+0019.872 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 200 files added (on-disk size: 121.7 KB)
+0019.981 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 300 files added (on-disk size: 121.7 KB)
+0020.088 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 400 files added (on-disk size: 121.7 KB)
+0020.196 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 500 files added (on-disk size: 121.7 KB)
+0020.200 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.4 MB, 3925 files batched, 501 (502) added so far); re-opening (prior size: 121.7 KB)
+0030.889 (0) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 3.80 MB
+0031.006 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 600 files added (on-disk size: 3883.6 KB)
+0031.138 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 700 files added (on-disk size: 3883.6 KB)
+0031.250 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 800 files added (on-disk size: 3883.6 KB)
+0031.380 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 900 files added (on-disk size: 3883.6 KB)
+0031.523 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1000 files added (on-disk size: 3883.6 KB)
+0031.527 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 3925 files batched, 501 (1003) added so far); re-opening (prior size: 3883.6 KB)
+0040.313 (0) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 7.60 MB
+0040.432 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1100 files added (on-disk size: 7829.3 KB)
+0040.556 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1200 files added (on-disk size: 7829.3 KB)
+0040.696 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1300 files added (on-disk size: 7829.3 KB)
+0040.812 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1400 files added (on-disk size: 7829.3 KB)
+0040.928 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1500 files added (on-disk size: 7829.3 KB)
+0040.934 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 3925 files batched, 501 (1504) added so far); re-opening (prior size: 7829.3 KB)
+0054.022 (0) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 13.30 MB
+0054.123 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1600 files added (on-disk size: 13584.8 KB)
+0054.233 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1700 files added (on-disk size: 13584.8 KB)
+0054.338 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1800 files added (on-disk size: 13584.8 KB)
+0054.439 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1900 files added (on-disk size: 13584.8 KB)
+0054.539 (0) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 2000 files added (on-disk size: 13584.8 KB)
+0054.545 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 3925 files batched, 501 (2005) added so far); re-opening (prior size: 13584.8 KB)
+75247.748 (1) Opened log file at time: Sun, 04 Nov 2018 11:04:01 +0000 on http://853.8c8.myftpupload.com
+75247.749 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 56.9M | 57.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+75247.752 (1) Free space on disk containing Updraft's temporary directory: 264288881.5 MB
+75247.754 (1) Backup run: resumption=1, nonce=d88e62da9df0, begun at=1541254193 (75248s ago), job type=backup, previous check-in=53.9s
+75247.755 (1) Long time past since expected resumption time: approx expected=1541254547.7, now=1541329441.1, diff=74893.4
+75247.758 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+75247.760 (1) Scheduling a resumption (2) after 300 seconds (1541329741) in case this run gets aborted
+75247.771 (1) Checking if we have a zip executable available
+75247.772 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+75247.774 (1) Creation of backups of directories: had begun; will resume
+75247.781 (1) Beginning creation of dump of plugins (split every: 400 MB)
+75273.735 (1) Total entities for the zip file: 526 directories, 3925 files (0 skipped as non-modified), 75.3 MB
+75273.748 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+75273.820 (1) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 0.10 MB
+75273.951 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 100 files added (on-disk size: 121.7 KB)
+75274.052 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 200 files added (on-disk size: 121.7 KB)
+75274.149 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 300 files added (on-disk size: 121.7 KB)
+75274.255 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 400 files added (on-disk size: 121.7 KB)
+75274.369 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 500 files added (on-disk size: 121.7 KB)
+75274.373 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.4 MB, 3925 files batched, 501 (502) added so far); re-opening (prior size: 121.7 KB)
+75283.795 (1) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 3.80 MB
+75283.920 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 600 files added (on-disk size: 3883.6 KB)
+75284.050 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 700 files added (on-disk size: 3883.6 KB)
+75284.171 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 800 files added (on-disk size: 3883.6 KB)
+75284.289 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 900 files added (on-disk size: 3883.6 KB)
+75284.404 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1000 files added (on-disk size: 3883.6 KB)
+75284.409 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 3925 files batched, 501 (1003) added so far); re-opening (prior size: 3883.6 KB)
+75294.458 (1) backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: size is now: 7.60 MB
+75294.571 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1100 files added (on-disk size: 7829.3 KB)
+75294.683 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1200 files added (on-disk size: 7829.3 KB)
+75294.794 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1300 files added (on-disk size: 7829.3 KB)
+75294.909 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1400 files added (on-disk size: 7829.3 KB)
+75295.038 (1) Zip: backup_2018-11-03-0809_Startube_d88e62da9df0-plugins.zip.tmp: 1500 files added (on-disk size: 7829.3 KB)
+75295.044 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 3925 files batched, 501 (1504) added so far); re-opening (prior size: 7829.3 KB)
+174273.704 (2) Opened log file at time: Mon, 05 Nov 2018 14:34:27 +0000 on http://853.8c8.myftpupload.com
+174273.706 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 56.5M | 57.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+174273.709 (2) Free space on disk containing Updraft's temporary directory: 264517116.5 MB
+174273.710 (2) This backup task (d88e62da9df0) is either complete or began over 2 days ago: ending (1541428467.0615, 1541254193) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkin, warnings)

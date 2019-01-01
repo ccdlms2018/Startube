@@ -1,0 +1,578 @@
+0000.136 (0) Opened log file at time: Sun, 30 Dec 2018 06:41:10 +0000 on http://853.8c8.myftpupload.com
+0000.138 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 5.0.2 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 58.7M | 60.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.141 (0) Free space on disk containing Updraft's temporary directory: 202839535.5 MB
+0000.384 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.385 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.390 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1544855717, seconds_ago=1296353)
+0000.392 (0) Semaphore (fd, wp_wk38xk386h_options) was stuck, set lock time to 2018-12-30 06:41:10
+0000.394 (0) Semaphore (fd, wp_wk38xk386h_options) reset to 1
+0000.395 (0) Set semaphore last lock (fd) time to 2018-12-30 06:41:10
+0000.396 (0) Semaphore lock (fd) complete
+0000.400 (0) Backup run: resumption=0, nonce=de6643b777b6, begun at=1546152070 (0s ago), job type=backup
+0000.402 (0) Scheduling a resumption (1) after 300 seconds (1546152370) in case this run gets aborted
+0000.413 (0) Checking if we have a zip executable available
+0000.415 (0) Testing: /usr/bin/zip
+0000.436 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.444 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.447 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.449 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.451 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.469 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.471 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.503 (0) Working binary zip found: /usr/bin/zip
+0000.505 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.507 (0) Creation of backups of directories: beginning
+0000.517 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.525 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-cli.php: unreadable file
+0000.527 (0) [Warning] plugins/akismet/class.akismet-cli.php: unreadable file - could not be backed up
+0000.528 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-rest-api.php: unreadable file
+0000.530 (0) [Warning] plugins/akismet/class.akismet-rest-api.php: unreadable file - could not be backed up
+0000.534 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/readme.txt: unreadable file
+0000.536 (0) [Warning] plugins/akismet/readme.txt: unreadable file - could not be backed up
+0000.538 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-admin.php: unreadable file
+0000.540 (0) [Warning] plugins/akismet/class.akismet-admin.php: unreadable file - could not be backed up
+0000.541 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet.php: unreadable file
+0000.543 (0) [Warning] plugins/akismet/class.akismet.php: unreadable file - could not be backed up
+0000.544 (0) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/akismet.php: unreadable file
+0000.547 (0) [Warning] plugins/akismet/akismet.php: unreadable file - could not be backed up
+0033.320 (0) Total entities for the zip file: 526 directories, 3919 files (0 skipped as non-modified), 75.1 MB
+0033.323 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0033.381 (0) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 0.10 MB
+0033.527 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 100 files added (on-disk size: 121.7 KB)
+0033.651 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 200 files added (on-disk size: 121.7 KB)
+0033.769 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 300 files added (on-disk size: 121.7 KB)
+0033.888 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 400 files added (on-disk size: 121.7 KB)
+0034.006 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 500 files added (on-disk size: 121.7 KB)
+0034.009 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 3919 files batched, 501 (502) added so far); re-opening (prior size: 121.7 KB)
+0049.511 (0) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 3.80 MB
+0049.652 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 600 files added (on-disk size: 3856.8 KB)
+0049.781 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 700 files added (on-disk size: 3856.8 KB)
+0049.921 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 800 files added (on-disk size: 3856.8 KB)
+0050.049 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 900 files added (on-disk size: 3856.8 KB)
+0050.177 (0) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1000 files added (on-disk size: 3856.8 KB)
+0050.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 3919 files batched, 501 (1003) added so far); re-opening (prior size: 3856.8 KB)
+75691.880 (1) Opened log file at time: Mon, 31 Dec 2018 03:42:42 +0000 on http://853.8c8.myftpupload.com
+75691.881 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 5.0.2 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 58.1M | 59M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+75691.884 (1) Free space on disk containing Updraft's temporary directory: 203408281 MB
+75691.887 (1) Backup run: resumption=1, nonce=de6643b777b6, begun at=1546152070 (75692s ago), job type=backup, previous check-in=55.5s
+75691.888 (1) Long time past since expected resumption time: approx expected=1546152426.3, now=1546227762.2, diff=75335.9
+75691.891 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+75691.893 (1) Scheduling a resumption (2) after 300 seconds (1546228062) in case this run gets aborted
+75691.904 (1) Checking if we have a zip executable available
+75691.905 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+75691.906 (1) Creation of backups of directories: had begun; will resume
+75692.088 (1) Beginning creation of dump of plugins (split every: 400 MB)
+75692.176 (1) File exists (/home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/updraft/backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1546152120, time_now=1546227762, diff=75642)
+75692.217 (1) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: Zip file already exists, with 502 files
+75692.221 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-cli.php: unreadable file
+75692.222 (1) [Warning] plugins/akismet/class.akismet-cli.php: unreadable file - could not be backed up
+75692.223 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-rest-api.php: unreadable file
+75692.224 (1) [Warning] plugins/akismet/class.akismet-rest-api.php: unreadable file - could not be backed up
+75692.228 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/readme.txt: unreadable file
+75692.230 (1) [Warning] plugins/akismet/readme.txt: unreadable file - could not be backed up
+75692.231 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-admin.php: unreadable file
+75692.232 (1) [Warning] plugins/akismet/class.akismet-admin.php: unreadable file - could not be backed up
+75692.233 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet.php: unreadable file
+75692.234 (1) [Warning] plugins/akismet/class.akismet.php: unreadable file - could not be backed up
+75692.236 (1) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/akismet.php: unreadable file
+75692.237 (1) [Warning] plugins/akismet/akismet.php: unreadable file - could not be backed up
+75706.508 (1) Total entities for the zip file: 526 directories, 3919 files (0 skipped as non-modified), 75.1 MB
+75706.536 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 100 files added (on-disk size: 3856.8 KB)
+75706.561 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 200 files added (on-disk size: 3856.8 KB)
+75706.587 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 300 files added (on-disk size: 3856.8 KB)
+75706.613 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 400 files added (on-disk size: 3856.8 KB)
+75706.636 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 500 files added (on-disk size: 3856.8 KB)
+75706.745 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 600 files added (on-disk size: 3856.8 KB)
+75706.855 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 700 files added (on-disk size: 3856.8 KB)
+75706.962 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 800 files added (on-disk size: 3856.8 KB)
+75707.068 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 900 files added (on-disk size: 3856.8 KB)
+75707.179 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1000 files added (on-disk size: 3856.8 KB)
+75707.183 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 3919 files batched, 501 (501) added so far); re-opening (prior size: 3856.8 KB)
+75713.373 (1) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 7.60 MB
+75713.485 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1100 files added (on-disk size: 7801.1 KB)
+75713.626 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1200 files added (on-disk size: 7801.1 KB)
+75713.760 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1300 files added (on-disk size: 7801.1 KB)
+75713.886 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1400 files added (on-disk size: 7801.1 KB)
+75714.006 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1500 files added (on-disk size: 7801.1 KB)
+75714.012 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 3919 files batched, 501 (1002) added so far); re-opening (prior size: 7801.1 KB)
+75724.197 (1) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 13.30 MB
+75724.318 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1600 files added (on-disk size: 13585 KB)
+75724.439 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1700 files added (on-disk size: 13585 KB)
+75724.556 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1800 files added (on-disk size: 13585 KB)
+75724.691 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1900 files added (on-disk size: 13585 KB)
+75724.814 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2000 files added (on-disk size: 13585 KB)
+75724.822 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 3919 files batched, 501 (1503) added so far); re-opening (prior size: 13585 KB)
+75735.063 (1) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 18.10 MB
+75735.176 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2100 files added (on-disk size: 18552.4 KB)
+75735.291 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2200 files added (on-disk size: 18552.4 KB)
+75735.404 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2300 files added (on-disk size: 18552.4 KB)
+75735.537 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2400 files added (on-disk size: 18552.4 KB)
+75735.661 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2500 files added (on-disk size: 18552.4 KB)
+75735.669 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.4 MB, 3919 files batched, 501 (2004) added so far); re-opening (prior size: 18552.4 KB)
+75742.598 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2600 files added (on-disk size: 21878.7 KB)
+75742.714 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2700 files added (on-disk size: 21878.7 KB)
+75742.826 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2800 files added (on-disk size: 21878.7 KB)
+75742.936 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2900 files added (on-disk size: 21878.7 KB)
+75743.052 (1) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3000 files added (on-disk size: 21878.7 KB)
+75743.062 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.7 MB, 3919 files batched, 501 (2505) added so far); re-opening (prior size: 21878.7 KB)
+84577.981 (2) Opened log file at time: Mon, 31 Dec 2018 06:10:48 +0000 on http://853.8c8.myftpupload.com
+84577.983 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 5.0.2 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 58.1M | 59M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+84577.986 (2) Free space on disk containing Updraft's temporary directory: 203475495.5 MB
+84577.988 (2) Backup run: resumption=2, nonce=de6643b777b6, begun at=1546152070 (84578s ago), job type=backup, previous check-in=50.6s
+84577.989 (2) Long time past since expected resumption time: approx expected=1546228112.8, now=1546236648.2, diff=8535.4
+84577.991 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+84577.993 (2) Scheduling a resumption (3) after 300 seconds (1546236948) in case this run gets aborted
+84578.003 (2) Checking if we have a zip executable available
+84578.004 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+84578.005 (2) Creation of backups of directories: had begun; will resume
+84578.195 (2) Beginning creation of dump of plugins (split every: 400 MB)
+84578.197 (2) File exists (/home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/updraft/backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1546227813, time_now=1546236648, diff=8835)
+84578.290 (2) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: Zip file already exists, with 2506 files
+84578.293 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-cli.php: unreadable file
+84578.294 (2) [Warning] plugins/akismet/class.akismet-cli.php: unreadable file - could not be backed up
+84578.296 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-rest-api.php: unreadable file
+84578.297 (2) [Warning] plugins/akismet/class.akismet-rest-api.php: unreadable file - could not be backed up
+84578.304 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/readme.txt: unreadable file
+84578.306 (2) [Warning] plugins/akismet/readme.txt: unreadable file - could not be backed up
+84578.307 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-admin.php: unreadable file
+84578.308 (2) [Warning] plugins/akismet/class.akismet-admin.php: unreadable file - could not be backed up
+84578.310 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet.php: unreadable file
+84578.311 (2) [Warning] plugins/akismet/class.akismet.php: unreadable file - could not be backed up
+84578.313 (2) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/akismet.php: unreadable file
+84578.314 (2) [Warning] plugins/akismet/akismet.php: unreadable file - could not be backed up
+84634.372 (2) Total entities for the zip file: 526 directories, 3919 files (0 skipped as non-modified), 75.1 MB
+84634.402 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 100 files added (on-disk size: 21878.7 KB)
+84634.431 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 200 files added (on-disk size: 21878.7 KB)
+84634.457 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 300 files added (on-disk size: 21878.7 KB)
+84634.486 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 400 files added (on-disk size: 21878.7 KB)
+84634.511 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 500 files added (on-disk size: 21878.7 KB)
+84634.534 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 600 files added (on-disk size: 21878.7 KB)
+84634.564 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 700 files added (on-disk size: 21878.7 KB)
+84634.593 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 800 files added (on-disk size: 21878.7 KB)
+84634.623 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 900 files added (on-disk size: 21878.7 KB)
+84634.645 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1000 files added (on-disk size: 21878.7 KB)
+84634.666 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1100 files added (on-disk size: 21878.7 KB)
+84634.693 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1200 files added (on-disk size: 21878.7 KB)
+84634.715 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1300 files added (on-disk size: 21878.7 KB)
+84634.745 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1400 files added (on-disk size: 21878.7 KB)
+84634.777 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1500 files added (on-disk size: 21878.7 KB)
+84634.802 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1600 files added (on-disk size: 21878.7 KB)
+84634.813 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1700 files added (on-disk size: 21878.7 KB)
+84634.842 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1800 files added (on-disk size: 21878.7 KB)
+84634.870 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1900 files added (on-disk size: 21878.7 KB)
+84634.895 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2000 files added (on-disk size: 21878.7 KB)
+84634.905 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2100 files added (on-disk size: 21878.7 KB)
+84634.929 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2200 files added (on-disk size: 21878.7 KB)
+84634.958 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2300 files added (on-disk size: 21878.7 KB)
+84634.989 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2400 files added (on-disk size: 21878.7 KB)
+84635.018 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2500 files added (on-disk size: 21878.7 KB)
+84635.111 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2600 files added (on-disk size: 21878.7 KB)
+84635.212 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2700 files added (on-disk size: 21878.7 KB)
+84635.311 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2800 files added (on-disk size: 21878.7 KB)
+84635.410 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2900 files added (on-disk size: 21878.7 KB)
+84635.505 (2) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3000 files added (on-disk size: 21878.7 KB)
+84635.513 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.7 MB, 3919 files batched, 501 (501) added so far); re-opening (prior size: 21878.7 KB)
+145066.326 (3) Opened log file at time: Mon, 31 Dec 2018 22:58:56 +0000 on http://853.8c8.myftpupload.com
+145066.327 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 5.0.2 PHP: 5.6.30 (cli, Linux a2nlwpcron030.prod.iad2.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) MySQL: 5.6.32 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 58.2M | 59M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: en_US.UTF-8 ZipArchive::addFile: Y
+145066.330 (3) Free space on disk containing Updraft's temporary directory: 203798334.5 MB
+145066.333 (3) Backup run: resumption=3, nonce=de6643b777b6, begun at=1546152070 (145066s ago), job type=backup
+145066.335 (3) Long time past since expected resumption time: approx expected=1546236948.2, now=1546297136.7, diff=60188.4
+145066.337 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+145066.341 (3) Scheduling a resumption (4) after 300 seconds (1546297436) in case this run gets aborted
+145066.360 (3) Checking if we have a zip executable available
+145066.361 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+145066.362 (3) Creation of backups of directories: had begun; will resume
+145066.363 (3) No check-in was detected on the previous run - as a result, we are reducing the batch amount (old=26214400, new=20971520)
+145066.583 (3) Beginning creation of dump of plugins (split every: 400 MB)
+145066.726 (3) File exists (/home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/updraft/backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1546236705, time_now=1546297136, diff=60431)
+145066.821 (3) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: Zip file already exists, with 2506 files
+145066.825 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-cli.php: unreadable file
+145066.827 (3) [Warning] plugins/akismet/class.akismet-cli.php: unreadable file - could not be backed up
+145066.828 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-rest-api.php: unreadable file
+145066.829 (3) [Warning] plugins/akismet/class.akismet-rest-api.php: unreadable file - could not be backed up
+145066.832 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/readme.txt: unreadable file
+145066.834 (3) [Warning] plugins/akismet/readme.txt: unreadable file - could not be backed up
+145066.835 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet-admin.php: unreadable file
+145066.836 (3) [Warning] plugins/akismet/class.akismet-admin.php: unreadable file - could not be backed up
+145066.837 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/class.akismet.php: unreadable file
+145066.838 (3) [Warning] plugins/akismet/class.akismet.php: unreadable file - could not be backed up
+145066.839 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/plugins/akismet/akismet.php: unreadable file
+145066.840 (3) [Warning] plugins/akismet/akismet.php: unreadable file - could not be backed up
+145083.436 (3) Total entities for the zip file: 526 directories, 3919 files (0 skipped as non-modified), 75.1 MB
+145083.465 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 100 files added (on-disk size: 21878.7 KB)
+145083.493 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 200 files added (on-disk size: 21878.7 KB)
+145083.521 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 300 files added (on-disk size: 21878.7 KB)
+145083.548 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 400 files added (on-disk size: 21878.7 KB)
+145083.578 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 500 files added (on-disk size: 21878.7 KB)
+145083.607 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 600 files added (on-disk size: 21878.7 KB)
+145083.636 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 700 files added (on-disk size: 21878.7 KB)
+145083.664 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 800 files added (on-disk size: 21878.7 KB)
+145083.692 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 900 files added (on-disk size: 21878.7 KB)
+145083.717 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1000 files added (on-disk size: 21878.7 KB)
+145083.744 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1100 files added (on-disk size: 21878.7 KB)
+145083.771 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1200 files added (on-disk size: 21878.7 KB)
+145083.799 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1300 files added (on-disk size: 21878.7 KB)
+145083.826 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1400 files added (on-disk size: 21878.7 KB)
+145083.852 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1500 files added (on-disk size: 21878.7 KB)
+145083.880 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1600 files added (on-disk size: 21878.7 KB)
+145083.905 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1700 files added (on-disk size: 21878.7 KB)
+145083.934 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1800 files added (on-disk size: 21878.7 KB)
+145083.965 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 1900 files added (on-disk size: 21878.7 KB)
+145083.995 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2000 files added (on-disk size: 21878.7 KB)
+145084.026 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2100 files added (on-disk size: 21878.7 KB)
+145084.055 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2200 files added (on-disk size: 21878.7 KB)
+145084.085 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2300 files added (on-disk size: 21878.7 KB)
+145084.115 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2400 files added (on-disk size: 21878.7 KB)
+145084.144 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2500 files added (on-disk size: 21878.7 KB)
+145084.262 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2600 files added (on-disk size: 21878.7 KB)
+145084.374 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2700 files added (on-disk size: 21878.7 KB)
+145084.484 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2800 files added (on-disk size: 21878.7 KB)
+145084.613 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 2900 files added (on-disk size: 21878.7 KB)
+145084.646 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 20 MB added on this batch (20 MB, 3919 files batched, 423 (423) added so far); re-opening (prior size: 21878.7 KB)
+145093.419 (3) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: size is now: 26.90 MB
+145093.424 (3) A useful amount of data was added after this amount of zip processing: 9.8 s (normalised: 9.8 s, rate: 2091.3 KB/s)
+145093.427 (3) Performance is good - will increase the amount of data we attempt to batch (time=9.8043398857117, normalised_time=9.7929095821023, max_time=55, data points known=2, old_max_bytes=20971520, new_max_bytes=70669513)
+145093.517 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3000 files added (on-disk size: 27546.4 KB)
+145093.646 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3100 files added (on-disk size: 27546.4 KB)
+145093.786 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3200 files added (on-disk size: 27546.4 KB)
+145093.910 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3300 files added (on-disk size: 27546.4 KB)
+145094.029 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3400 files added (on-disk size: 27546.4 KB)
+145094.069 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 3919 files batched, 501 (924) added so far); re-opening (prior size: 27546.4 KB)
+145095.811 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3500 files added (on-disk size: 28230 KB)
+145095.939 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3600 files added (on-disk size: 28230 KB)
+145096.068 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3700 files added (on-disk size: 28230 KB)
+145096.189 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3800 files added (on-disk size: 28230 KB)
+145096.314 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip.tmp: 3900 files added (on-disk size: 28230 KB)
+145100.852 (3) Created plugins zip (0) - 29371.6 KB in 34.1 s (860.8 KB/s) (sha1: af5f585ff83dd3d8c0dc013afd7bf56596bfffdb, sha256: 9d5b4b1a3cf3d1642a24b80f3a56e9250a215f2bac51021cdf0230a1252c3438)
+145100.860 (3) Beginning creation of dump of themes (split every: 400 MB)
+145102.099 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentysixteen/js/functions.js: unreadable file
+145102.102 (3) [Warning] themes/twentysixteen/js/functions.js: unreadable file - could not be backed up
+145102.423 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/js/customize-controls.js: unreadable file
+145102.426 (3) [Warning] themes/twentynineteen/js/customize-controls.js: unreadable file - could not be backed up
+145102.428 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/js/customize-preview.js: unreadable file
+145102.430 (3) [Warning] themes/twentynineteen/js/customize-preview.js: unreadable file - could not be backed up
+145102.431 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/js/priority-menu.js: unreadable file
+145102.434 (3) [Warning] themes/twentynineteen/js/priority-menu.js: unreadable file - could not be backed up
+145102.435 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/js/touch-keyboard-navigation.js: unreadable file
+145102.437 (3) [Warning] themes/twentynineteen/js/touch-keyboard-navigation.js: unreadable file - could not be backed up
+145102.438 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/print.css: unreadable file
+145102.440 (3) [Warning] themes/twentynineteen/print.css: unreadable file - could not be backed up
+145102.442 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/search.php: unreadable file
+145102.444 (3) [Warning] themes/twentynineteen/search.php: unreadable file - could not be backed up
+145102.555 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/elements/_tables.scss: unreadable file
+145102.559 (3) [Warning] themes/twentynineteen/sass/elements/_tables.scss: unreadable file - could not be backed up
+145102.560 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/elements/_lists.scss: unreadable file
+145102.562 (3) [Warning] themes/twentynineteen/sass/elements/_lists.scss: unreadable file - could not be backed up
+145102.564 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/elements/_elements.scss: unreadable file
+145102.567 (3) [Warning] themes/twentynineteen/sass/elements/_elements.scss: unreadable file - could not be backed up
+145102.604 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/navigation/_menu-footer-navigation.scss: unreadable file
+145102.607 (3) [Warning] themes/twentynineteen/sass/navigation/_menu-footer-navigation.scss: unreadable file - could not be backed up
+145102.608 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/navigation/_menu-main-navigation.scss: unreadable file
+145102.610 (3) [Warning] themes/twentynineteen/sass/navigation/_menu-main-navigation.scss: unreadable file - could not be backed up
+145102.611 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/navigation/_next-previous.scss: unreadable file
+145102.614 (3) [Warning] themes/twentynineteen/sass/navigation/_next-previous.scss: unreadable file - could not be backed up
+145102.615 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/navigation/_links.scss: unreadable file
+145102.617 (3) [Warning] themes/twentynineteen/sass/navigation/_links.scss: unreadable file - could not be backed up
+145102.618 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/navigation/_navigation.scss: unreadable file
+145102.621 (3) [Warning] themes/twentynineteen/sass/navigation/_navigation.scss: unreadable file - could not be backed up
+145102.710 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/_site.scss: unreadable file
+145102.713 (3) [Warning] themes/twentynineteen/sass/site/_site.scss: unreadable file - could not be backed up
+145102.717 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/header/_site-featured-image.scss: unreadable file
+145102.720 (3) [Warning] themes/twentynineteen/sass/site/header/_site-featured-image.scss: unreadable file - could not be backed up
+145102.721 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/header/_site-header.scss: unreadable file
+145102.723 (3) [Warning] themes/twentynineteen/sass/site/header/_site-header.scss: unreadable file - could not be backed up
+145102.726 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/secondary/_widgets.scss: unreadable file
+145102.729 (3) [Warning] themes/twentynineteen/sass/site/secondary/_widgets.scss: unreadable file - could not be backed up
+145102.732 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/primary/_comments.scss: unreadable file
+145102.735 (3) [Warning] themes/twentynineteen/sass/site/primary/_comments.scss: unreadable file - could not be backed up
+145102.736 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/primary/_archives.scss: unreadable file
+145102.738 (3) [Warning] themes/twentynineteen/sass/site/primary/_archives.scss: unreadable file - could not be backed up
+145102.739 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/primary/_posts-and-pages.scss: unreadable file
+145102.742 (3) [Warning] themes/twentynineteen/sass/site/primary/_posts-and-pages.scss: unreadable file - could not be backed up
+145102.745 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/site/footer/_site-footer.scss: unreadable file
+145102.748 (3) [Warning] themes/twentynineteen/sass/site/footer/_site-footer.scss: unreadable file - could not be backed up
+145102.751 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/layout/_layout.scss: unreadable file
+145102.754 (3) [Warning] themes/twentynineteen/sass/layout/_layout.scss: unreadable file - could not be backed up
+145102.757 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/mixins/_utilities.scss: unreadable file
+145102.760 (3) [Warning] themes/twentynineteen/sass/mixins/_utilities.scss: unreadable file - could not be backed up
+145102.761 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/mixins/_mixins-master.scss: unreadable file
+145102.764 (3) [Warning] themes/twentynineteen/sass/mixins/_mixins-master.scss: unreadable file - could not be backed up
+145102.767 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/typography/_headings.scss: unreadable file
+145102.770 (3) [Warning] themes/twentynineteen/sass/typography/_headings.scss: unreadable file - could not be backed up
+145102.771 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/typography/_typography.scss: unreadable file
+145102.773 (3) [Warning] themes/twentynineteen/sass/typography/_typography.scss: unreadable file - could not be backed up
+145102.774 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/typography/_copy.scss: unreadable file
+145102.777 (3) [Warning] themes/twentynineteen/sass/typography/_copy.scss: unreadable file - could not be backed up
+145102.780 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/media/_media.scss: unreadable file
+145102.783 (3) [Warning] themes/twentynineteen/sass/media/_media.scss: unreadable file - could not be backed up
+145102.784 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/media/_captions.scss: unreadable file
+145102.786 (3) [Warning] themes/twentynineteen/sass/media/_captions.scss: unreadable file - could not be backed up
+145102.787 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/media/_galleries.scss: unreadable file
+145102.790 (3) [Warning] themes/twentynineteen/sass/media/_galleries.scss: unreadable file - could not be backed up
+145102.806 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_transitions.scss: unreadable file
+145102.809 (3) [Warning] themes/twentynineteen/sass/variables-site/_transitions.scss: unreadable file - could not be backed up
+145102.810 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_columns.scss: unreadable file
+145102.812 (3) [Warning] themes/twentynineteen/sass/variables-site/_columns.scss: unreadable file - could not be backed up
+145102.813 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_fonts.scss: unreadable file
+145102.816 (3) [Warning] themes/twentynineteen/sass/variables-site/_fonts.scss: unreadable file - could not be backed up
+145102.817 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_colors.scss: unreadable file
+145102.819 (3) [Warning] themes/twentynineteen/sass/variables-site/_colors.scss: unreadable file - could not be backed up
+145102.820 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_variables-site.scss: unreadable file
+145102.823 (3) [Warning] themes/twentynineteen/sass/variables-site/_variables-site.scss: unreadable file - could not be backed up
+145102.824 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/variables-site/_structure.scss: unreadable file
+145102.826 (3) [Warning] themes/twentynineteen/sass/variables-site/_structure.scss: unreadable file - could not be backed up
+145102.830 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/forms/_forms.scss: unreadable file
+145102.833 (3) [Warning] themes/twentynineteen/sass/forms/_forms.scss: unreadable file - could not be backed up
+145102.834 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/forms/_buttons.scss: unreadable file
+145102.837 (3) [Warning] themes/twentynineteen/sass/forms/_buttons.scss: unreadable file - could not be backed up
+145102.838 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/forms/_fields.scss: unreadable file
+145102.840 (3) [Warning] themes/twentynineteen/sass/forms/_fields.scss: unreadable file - could not be backed up
+145102.841 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/_normalize.scss: unreadable file
+145102.844 (3) [Warning] themes/twentynineteen/sass/_normalize.scss: unreadable file - could not be backed up
+145102.847 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/modules/_accessibility.scss: unreadable file
+145102.850 (3) [Warning] themes/twentynineteen/sass/modules/_accessibility.scss: unreadable file - could not be backed up
+145102.851 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/modules/_clearings.scss: unreadable file
+145102.854 (3) [Warning] themes/twentynineteen/sass/modules/_clearings.scss: unreadable file - could not be backed up
+145102.855 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/sass/modules/_alignments.scss: unreadable file
+145102.857 (3) [Warning] themes/twentynineteen/sass/modules/_alignments.scss: unreadable file - could not be backed up
+145102.867 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/inc/icon-functions.php: unreadable file
+145102.871 (3) [Warning] themes/twentynineteen/inc/icon-functions.php: unreadable file - could not be backed up
+145102.872 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/inc/back-compat.php: unreadable file
+145102.874 (3) [Warning] themes/twentynineteen/inc/back-compat.php: unreadable file - could not be backed up
+145102.875 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/screenshot.png: unreadable file
+145102.878 (3) [Warning] themes/twentynineteen/screenshot.png: unreadable file - could not be backed up
+145102.879 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/postcss.config.js: unreadable file
+145102.882 (3) [Warning] themes/twentynineteen/postcss.config.js: unreadable file - could not be backed up
+145102.883 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/style-editor-customizer.css: unreadable file
+145102.886 (3) [Warning] themes/twentynineteen/style-editor-customizer.css: unreadable file - could not be backed up
+145102.887 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/style-editor-customizer.scss: unreadable file
+145102.890 (3) [Warning] themes/twentynineteen/style-editor-customizer.scss: unreadable file - could not be backed up
+145102.891 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/package-lock.json: unreadable file
+145102.894 (3) [Warning] themes/twentynineteen/package-lock.json: unreadable file - could not be backed up
+145102.973 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/content/content.php: unreadable file
+145102.977 (3) [Warning] themes/twentynineteen/template-parts/content/content.php: unreadable file - could not be backed up
+145102.978 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/content/content-single.php: unreadable file
+145102.980 (3) [Warning] themes/twentynineteen/template-parts/content/content-single.php: unreadable file - could not be backed up
+145102.981 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/content/content-page.php: unreadable file
+145102.985 (3) [Warning] themes/twentynineteen/template-parts/content/content-page.php: unreadable file - could not be backed up
+145102.986 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/content/content-none.php: unreadable file
+145102.988 (3) [Warning] themes/twentynineteen/template-parts/content/content-none.php: unreadable file - could not be backed up
+145102.990 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php: unreadable file
+145102.992 (3) [Warning] themes/twentynineteen/template-parts/content/content-excerpt.php: unreadable file - could not be backed up
+145102.998 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/header/entry-header.php: unreadable file
+145103.001 (3) [Warning] themes/twentynineteen/template-parts/header/entry-header.php: unreadable file - could not be backed up
+145103.003 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/header/site-branding.php: unreadable file
+145103.006 (3) [Warning] themes/twentynineteen/template-parts/header/site-branding.php: unreadable file - could not be backed up
+145103.009 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php: unreadable file
+145103.013 (3) [Warning] themes/twentynineteen/template-parts/footer/footer-widgets.php: unreadable file - could not be backed up
+145103.014 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/page.php: unreadable file
+145103.017 (3) [Warning] themes/twentynineteen/page.php: unreadable file - could not be backed up
+145103.018 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/footer.php: unreadable file
+145103.021 (3) [Warning] themes/twentynineteen/footer.php: unreadable file - could not be backed up
+145103.022 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/404.php: unreadable file
+145103.025 (3) [Warning] themes/twentynineteen/404.php: unreadable file - could not be backed up
+145103.044 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/print.scss: unreadable file
+145103.047 (3) [Warning] themes/twentynineteen/print.scss: unreadable file - could not be backed up
+145103.048 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/package.json: unreadable file
+145103.051 (3) [Warning] themes/twentynineteen/package.json: unreadable file - could not be backed up
+145103.054 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff: unreadable file
+145103.058 (3) [Warning] themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff: unreadable file - could not be backed up
+145103.059 (3) /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2: unreadable file
+145103.062 (3) [Warning] themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2: unreadable file - could not be backed up
+145103.181 (3) Total entities for the zip file: 79 directories, 300 files (0 skipped as non-modified), 5.7 MB
+145103.291 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+145103.397 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+145103.511 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+145108.627 (3) backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip.tmp: size is now: 3.60 MB
+145108.687 (3) Created themes zip (0) - 3647.4 KB in 7.8 s (466.4 KB/s) (sha1: 449007be6d0e9e61b2834ddd798a8b328ae83f85, sha256: 1295b938375d3c96842c72593484eb11717ea4f7cd7023cb990aee437c4d47da)
+145108.694 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+145108.695 (3) Looking for candidates to backup in: /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content/uploads
+145108.697 (3) finding files: wp-security-audit-log: adding to list (1)
+145108.699 (3) finding files: 2018: adding to list (2)
+145108.700 (3) Beginning creation of dump of uploads (split every: 400 MB)
+145108.811 (3) Total entities for the zip file: 8 directories, 4 files (0 skipped as non-modified), 0 MB
+145108.869 (3) backup_2018-12-30-0041_Startube_de6643b777b6-uploads.zip.tmp: size is now: 0.00 MB
+145108.883 (3) Created uploads zip (0) - 2.2 KB in 0.2 s (12.6 KB/s) (sha1: 7884b07b656447bb459a5ce3403b9ea7d813e1a7, sha256: 241466957c9790a06ba3bdf5d9196b6649106b83134da6841c0938378f78c1c8)
+145108.890 (3) Beginning backup of other directories found in the content directory (index: 0)
+145108.891 (3) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+145108.893 (3) Looking for candidates to backup in: /home/content/a2pewpnaspod06_data02/78/42006978/html/wp-content
+145108.895 (3) finding files: updraft: skipping: this is the updraft directory
+145108.896 (3) finding files: mu-plugins: adding to list (1)
+145108.897 (3) finding files: object-cache.php: adding to list (2)
+145108.899 (3) finding files: index.php: adding to list (3)
+145108.900 (3) finding files: themes: skipping: this is the themes directory
+145108.901 (3) finding files: upgrade: skipping: excluded by options
+145108.902 (3) finding files: plugins: skipping: this is the plugins directory
+145108.904 (3) finding files: languages: adding to list (4)
+145108.905 (3) finding files: uploads: skipping: this is the uploads directory
+145109.626 (3) Total entities for the zip file: 38 directories, 313 files (0 skipped as non-modified), 3.7 MB
+145109.723 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+145109.814 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+145109.905 (3) Zip: backup_2018-12-30-0041_Startube_de6643b777b6-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+145110.458 (3) backup_2018-12-30-0041_Startube_de6643b777b6-others.zip.tmp: size is now: 1.50 MB
+145110.495 (3) Created others zip (0) - 1528 KB in 1.6 s (964.9 KB/s) (sha1: f9bcca76e2fa63146a5763cae0ea0d4ccce978ed, sha256: 0a38b29779afcd8abb955160183e999e696bd8a5bd536b692af9a077f69736f7)
+145110.506 (3) Saving backup status to database (elements: 8)
+145110.510 (3) Resuming creation of database dump (WordPress DB)
+145110.518 (3) Testing: /usr/bin/mysqldump
+145110.534 (3) Binary mysqldump: error (code: 2)
+145110.559 (3) Table wp_wk38xk386h_options: Total expected rows (approximate): 262
+145110.569 (3) Table wp_wk38xk386h_options: Total rows added: 259 in 0.01 seconds
+145110.574 (3) Table wp_wk38xk386h_options: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_options.table.gz - 18.4 KB)
+145110.585 (3) Table wp_wk38xk386h_users: Total expected rows (approximate): 2
+145110.587 (3) Table wp_wk38xk386h_users: Total rows added: 2 in 0.00 seconds
+145110.590 (3) Table wp_wk38xk386h_users: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_users.table.gz - 0.7 KB)
+145110.611 (3) Table wp_wk38xk386h_usermeta: Total expected rows (approximate): 44
+145110.614 (3) Table wp_wk38xk386h_usermeta: Total rows added: 44 in 0.00 seconds
+145110.617 (3) Table wp_wk38xk386h_usermeta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_usermeta.table.gz - 1.7 KB)
+145110.628 (3) Table wp_wk38xk386h_commentmeta: Total expected rows (approximate): 0
+145110.631 (3) Table wp_wk38xk386h_commentmeta: Total rows added: 0 in 0.00 seconds
+145110.633 (3) Table wp_wk38xk386h_commentmeta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_commentmeta.table.gz - 0.4 KB)
+145110.644 (3) Table wp_wk38xk386h_comments: Total expected rows (approximate): 0
+145110.646 (3) Table wp_wk38xk386h_comments: Total rows added: 0 in 0.00 seconds
+145110.649 (3) Table wp_wk38xk386h_comments: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_comments.table.gz - 0.5 KB)
+145110.660 (3) Table wp_wk38xk386h_links: Total expected rows (approximate): 0
+145110.662 (3) Table wp_wk38xk386h_links: Total rows added: 0 in 0.00 seconds
+145110.665 (3) Table wp_wk38xk386h_links: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_links.table.gz - 0.5 KB)
+145110.676 (3) Table wp_wk38xk386h_postmeta: Total expected rows (approximate): 0
+145110.678 (3) Table wp_wk38xk386h_postmeta: Total rows added: 0 in 0.00 seconds
+145110.681 (3) Table wp_wk38xk386h_postmeta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_postmeta.table.gz - 0.4 KB)
+145110.691 (3) Table wp_wk38xk386h_posts: Total expected rows (approximate): 0
+145110.693 (3) Table wp_wk38xk386h_posts: Total rows added: 0 in 0.00 seconds
+145110.696 (3) Table wp_wk38xk386h_posts: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_posts.table.gz - 0.6 KB)
+145110.706 (3) Table wp_wk38xk386h_term_relationships: Total expected rows (approximate): 0
+145110.709 (3) Table wp_wk38xk386h_term_relationships: Total rows added: 0 in 0.00 seconds
+145110.712 (3) Table wp_wk38xk386h_term_relationships: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_term_relationships.table.gz - 0.3 KB)
+145110.722 (3) Table wp_wk38xk386h_term_taxonomy: Total expected rows (approximate): 1
+145110.725 (3) Table wp_wk38xk386h_term_taxonomy: Total rows added: 1 in 0.00 seconds
+145110.729 (3) Table wp_wk38xk386h_term_taxonomy: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_term_taxonomy.table.gz - 0.4 KB)
+145110.739 (3) Table wp_wk38xk386h_termmeta: Total expected rows (approximate): 0
+145110.741 (3) Table wp_wk38xk386h_termmeta: Total rows added: 0 in 0.00 seconds
+145110.745 (3) Table wp_wk38xk386h_termmeta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_termmeta.table.gz - 0.4 KB)
+145110.755 (3) Table wp_wk38xk386h_terms: Total expected rows (approximate): 1
+145110.757 (3) Table wp_wk38xk386h_terms: Total rows added: 1 in 0.00 seconds
+145110.760 (3) Table wp_wk38xk386h_terms: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_terms.table.gz - 0.4 KB)
+145110.771 (3) Table wp_wk38xk386h_nf3_action_meta: Total expected rows (approximate): 126
+145110.776 (3) Table wp_wk38xk386h_nf3_action_meta: Total rows added: 126 in 0.00 seconds
+145110.779 (3) Table wp_wk38xk386h_nf3_action_meta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_action_meta.table.gz - 1.3 KB)
+145110.790 (3) Table wp_wk38xk386h_nf3_actions: Total expected rows (approximate): 6
+145110.793 (3) Table wp_wk38xk386h_nf3_actions: Total rows added: 6 in 0.00 seconds
+145110.796 (3) Table wp_wk38xk386h_nf3_actions: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_actions.table.gz - 0.5 KB)
+145110.807 (3) Table wp_wk38xk386h_nf3_chunks: Total expected rows (approximate): 0
+145110.809 (3) Table wp_wk38xk386h_nf3_chunks: Total rows added: 0 in 0.00 seconds
+145110.812 (3) Table wp_wk38xk386h_nf3_chunks: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_chunks.table.gz - 0.3 KB)
+145110.823 (3) Table wp_wk38xk386h_nf3_field_meta: Total expected rows (approximate): 385
+145110.831 (3) Table wp_wk38xk386h_nf3_field_meta: Total rows added: 385 in 0.01 seconds
+145110.835 (3) Table wp_wk38xk386h_nf3_field_meta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_field_meta.table.gz - 2.8 KB)
+145110.846 (3) Table wp_wk38xk386h_nf3_fields: Total expected rows (approximate): 14
+145110.849 (3) Table wp_wk38xk386h_nf3_fields: Total rows added: 14 in 0.00 seconds
+145110.852 (3) Table wp_wk38xk386h_nf3_fields: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_fields.table.gz - 0.6 KB)
+145110.863 (3) Table wp_wk38xk386h_nf3_form_meta: Total expected rows (approximate): 36
+145110.867 (3) Table wp_wk38xk386h_nf3_form_meta: Total rows added: 36 in 0.00 seconds
+145110.870 (3) Table wp_wk38xk386h_nf3_form_meta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_form_meta.table.gz - 1.5 KB)
+145110.881 (3) Table wp_wk38xk386h_nf3_forms: Total expected rows (approximate): 2
+145110.884 (3) Table wp_wk38xk386h_nf3_forms: Total rows added: 2 in 0.00 seconds
+145110.888 (3) Table wp_wk38xk386h_nf3_forms: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_forms.table.gz - 0.5 KB)
+145110.898 (3) Table wp_wk38xk386h_nf3_object_meta: Total expected rows (approximate): 0
+145110.901 (3) Table wp_wk38xk386h_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+145110.904 (3) Table wp_wk38xk386h_nf3_object_meta: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_object_meta.table.gz - 0.3 KB)
+145110.915 (3) Table wp_wk38xk386h_nf3_objects: Total expected rows (approximate): 0
+145110.918 (3) Table wp_wk38xk386h_nf3_objects: Total rows added: 0 in 0.00 seconds
+145110.922 (3) Table wp_wk38xk386h_nf3_objects: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_objects.table.gz - 0.4 KB)
+145110.933 (3) Table wp_wk38xk386h_nf3_relationships: Total expected rows (approximate): 0
+145110.936 (3) Table wp_wk38xk386h_nf3_relationships: Total rows added: 0 in 0.00 seconds
+145110.939 (3) Table wp_wk38xk386h_nf3_relationships: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_relationships.table.gz - 0.4 KB)
+145110.950 (3) Table wp_wk38xk386h_nf3_upgrades: Total expected rows (approximate): 0
+145110.953 (3) Table wp_wk38xk386h_nf3_upgrades: Total rows added: 0 in 0.00 seconds
+145110.956 (3) Table wp_wk38xk386h_nf3_upgrades: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_upgrades.table.gz - 0.3 KB)
+145110.968 (3) Table wp_wk38xk386h_wsal_metadata: Total expected rows (approximate): 4358
+145111.030 (3) Table wp_wk38xk386h_wsal_metadata: Total rows added: 4358 in 0.06 seconds
+145111.034 (3) Table wp_wk38xk386h_wsal_metadata: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_metadata.table.gz - 42 KB)
+145111.044 (3) Table wp_wk38xk386h_wsal_occurrences: Total expected rows (approximate): 807
+145111.060 (3) Table wp_wk38xk386h_wsal_occurrences: Total rows added: 807 in 0.01 seconds
+145111.063 (3) Table wp_wk38xk386h_wsal_occurrences: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_occurrences.table.gz - 9.5 KB)
+145111.073 (3) Table wp_wk38xk386h_wsal_options: Total expected rows (approximate): 24
+145111.075 (3) Table wp_wk38xk386h_wsal_options: Total rows added: 24 in 0.00 seconds
+145111.078 (3) Table wp_wk38xk386h_wsal_options: finishing file (backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_options.table.gz - 0.9 KB)
+145111.093 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_options.table.gz (1/26): adding to final database dump
+145111.100 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_users.table.gz (2/26): adding to final database dump
+145111.102 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_usermeta.table.gz (3/26): adding to final database dump
+145111.106 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_commentmeta.table.gz (4/26): adding to final database dump
+145111.108 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_comments.table.gz (5/26): adding to final database dump
+145111.111 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_links.table.gz (6/26): adding to final database dump
+145111.113 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_postmeta.table.gz (7/26): adding to final database dump
+145111.116 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_posts.table.gz (8/26): adding to final database dump
+145111.118 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_term_relationships.table.gz (9/26): adding to final database dump
+145111.121 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_term_taxonomy.table.gz (10/26): adding to final database dump
+145111.124 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_termmeta.table.gz (11/26): adding to final database dump
+145111.126 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_terms.table.gz (12/26): adding to final database dump
+145111.129 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_action_meta.table.gz (13/26): adding to final database dump
+145111.132 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_actions.table.gz (14/26): adding to final database dump
+145111.135 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_chunks.table.gz (15/26): adding to final database dump
+145111.138 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_field_meta.table.gz (16/26): adding to final database dump
+145111.143 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_fields.table.gz (17/26): adding to final database dump
+145111.146 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_form_meta.table.gz (18/26): adding to final database dump
+145111.149 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_forms.table.gz (19/26): adding to final database dump
+145111.152 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_object_meta.table.gz (20/26): adding to final database dump
+145111.154 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_objects.table.gz (21/26): adding to final database dump
+145111.157 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_relationships.table.gz (22/26): adding to final database dump
+145111.159 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_nf3_upgrades.table.gz (23/26): adding to final database dump
+145111.162 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_metadata.table.gz (24/26): adding to final database dump
+145111.194 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_occurrences.table.gz (25/26): adding to final database dump
+145111.203 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db-table-wp_wk38xk386h_wsal_options.table.gz (26/26): adding to final database dump
+145111.209 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db.gz: finished writing out complete database file (64 KB)
+145111.264 (3) Total database tables backed up: 26 (backup_2018-12-30-0041_Startube_de6643b777b6-db.gz, size: 81519, sha256)
+145111.272 (3) backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+145111.274 (3) backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+145111.275 (3) backup_2018-12-30-0041_Startube_de6643b777b6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+145111.276 (3) backup_2018-12-30-0041_Startube_de6643b777b6-others.zip: others: This file has not yet been successfully uploaded: will queue
+145111.277 (3) backup_2018-12-30-0041_Startube_de6643b777b6-db.gz: db: This file has not yet been successfully uploaded: will queue
+145111.279 (3) Saving backup history. Total backup size: 33.8 MB
+145111.282 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+145111.288 (3) Cloud backup selection (1/1): none with instance (1/1) (last)
+145111.289 (3) No remote despatch: user chose no remote backup service
+145111.290 (3) Recording as successfully uploaded: backup_2018-12-30-0041_Startube_de6643b777b6-plugins.zip
+145111.294 (3) Recording as successfully uploaded: backup_2018-12-30-0041_Startube_de6643b777b6-themes.zip
+145111.297 (3) Recording as successfully uploaded: backup_2018-12-30-0041_Startube_de6643b777b6-uploads.zip
+145111.301 (3) Recording as successfully uploaded: backup_2018-12-30-0041_Startube_de6643b777b6-others.zip
+145111.304 (3) Recording as successfully uploaded: backup_2018-12-30-0041_Startube_de6643b777b6-db.gz
+145111.310 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+145111.312 (3) Number of backup sets in history: 3; groups (db): 1
+145111.313 (3) Examining (for databases) backup set with group_id=0, nonce=de6643b777b6, datestamp=1546152070 (Dec 30 2018 06:41:10)
+145111.314 (3) This backup set is the backup set just made, so will not be deleted.
+145111.314 (3) Examining (for databases) backup set with group_id=0, nonce=83399782c005, datestamp=1538850136 (Oct 06 2018 18:22:16)
+145111.314 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+145111.315 (3) Examining (for databases) backup set with group_id=0, nonce=555a66d4633b, datestamp=1538421469 (Oct 01 2018 19:17:49)
+145111.315 (3) 1538421469: db: this set includes a database (backup_2018-10-01-1417_Startube_555a66d4633b-db.gz); db count is now 2
+145111.315 (3) 1538421469: db: over retain limit (2); will delete this database
+145111.315 (3) Delete file: backup_2018-10-01-1417_Startube_555a66d4633b-db.gz, service=none
+145111.317 (3) Deleting local copy (backup_2018-10-01-1417_Startube_555a66d4633b-db.gz)
+145111.425 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+145111.426 (3) Number of backup sets in history: 3; groups (files): 1
+145111.428 (3) Examining (for files) backup set with nonce=de6643b777b6, datestamp=1546152070 (Dec 30 2018 06:41:10)
+145111.428 (3) This backup set is the backup set just made, so will not be deleted.
+145111.429 (3) This backup set is the backup set just made, so will not be deleted.
+145111.429 (3) This backup set is the backup set just made, so will not be deleted.
+145111.429 (3) This backup set is the backup set just made, so will not be deleted.
+145111.429 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+145111.431 (3) Examining (for files) backup set with nonce=83399782c005, datestamp=1538850136 (Oct 06 2018 18:22:16)
+145111.431 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+145111.431 (3) Examining (for files) backup set with nonce=555a66d4633b, datestamp=1538421469 (Oct 01 2018 19:17:49)
+145111.431 (3) plugins: over retain limit (2); will delete this file entity
+145111.431 (3) themes: over retain limit (2); will delete this file entity
+145111.431 (3) uploads: over retain limit (2); will delete this file entity
+145111.431 (3) others: over retain limit (2); will delete this file entity
+145111.431 (3) Delete file: backup_2018-10-01-1417_Startube_555a66d4633b-plugins.zip, service=none
+145111.432 (3) Deleting local copy (backup_2018-10-01-1417_Startube_555a66d4633b-plugins.zip)
+145111.463 (3) Delete file: backup_2018-10-01-1417_Startube_555a66d4633b-themes.zip, service=none
+145111.465 (3) Deleting local copy (backup_2018-10-01-1417_Startube_555a66d4633b-themes.zip)
+145111.493 (3) Delete file: backup_2018-10-01-1417_Startube_555a66d4633b-uploads.zip, service=none
+145111.495 (3) Deleting local copy (backup_2018-10-01-1417_Startube_555a66d4633b-uploads.zip)
+145111.518 (3) Delete file: backup_2018-10-01-1417_Startube_555a66d4633b-others.zip, service=none
+145111.519 (3) Deleting local copy (backup_2018-10-01-1417_Startube_555a66d4633b-others.zip)
+145111.546 (3) This backup set is now empty; will remove from history
+145111.547 (3) Deleting log file (log.555a66d4633b.txt)
+145111.556 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+145111.561 (3) Resume backup (de6643b777b6, 3): finish run
+145111.565 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+145111.570 (3) No email will/can be sent - the user has not configured an email address.
+145111.572 (3) The backup apparently succeeded (with warnings) and is now complete
